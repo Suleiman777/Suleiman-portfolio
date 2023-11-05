@@ -77,7 +77,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 992px) {
   :root {
     --h2-font-size: 24px;
     --h3-font-size: 23px;
@@ -149,6 +149,14 @@
   .contact__card {
     padding-left: 100px;
   }
+
+  .footer__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    row-gap: 12px;
+  }
+
+  
 }
 
 
