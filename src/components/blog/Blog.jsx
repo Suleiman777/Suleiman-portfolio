@@ -51,7 +51,9 @@ const Blog = () => {
 
         <div className="blog__item card card-two">
           <span className="blog__date text-cs">SEPTEMBER 09, 2023</span>
-          <h3 className="blog__title">The Main Things For The Designer</h3>
+          <h3 className="blog__title">
+            The Main Things For The Designer
+          </h3>
           <p className="blog__description">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
             sequi totam dignissimos deserunt, minus quisquam sed unde. Dolor non
@@ -69,6 +71,10 @@ const Blog = () => {
 
       <div className="section__deco deco__right">
         <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__title">Blog</span>
       </div>
     </section>
   );

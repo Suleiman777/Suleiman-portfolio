@@ -25,6 +25,7 @@ const Services = () => {
       </p>
 
       <Swiper
+        spaceBetween={30}
         pagination={{
           clickable: true,
         }}
@@ -57,6 +58,7 @@ const Services = () => {
                 See Pricing
                 <FaArrowRight className="link__icon"></FaArrowRight>
               </a>
+
               <img src={shapeTwo} alt="" className="shape c__shape" />
             </SwiperSlide>
           );
@@ -65,6 +67,10 @@ const Services = () => {
 
       <div className="section__deco deco__right">
         <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__title">Services</span>
       </div>
     </section>
   );

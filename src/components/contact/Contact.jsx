@@ -140,13 +140,19 @@ const Contact = () => {
 
           <div className="contact__submit">
             <p>* Accept the terms and conditions.</p>
-            <button className="btn text-cs">Send Message</button>
+            <button className="btn text-cs">
+              Send Message
+            </button>
           </div>
         </form>
       </div>
 
       <div className="section__deco deco__left">
         <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__title">Contact Me</span>
       </div>
     </section>
   );
